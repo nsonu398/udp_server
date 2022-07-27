@@ -9,6 +9,6 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(3000,(socket)=>{
-    console.log('Server running at http://localhost:3000');
+server.listen(8080,(socket)=>{
+    console.log('Server running at http://localhost:8080');
 });
